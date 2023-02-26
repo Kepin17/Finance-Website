@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind -->
     <link rel="stylesheet" href="../dist/output.css" />
+
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -24,31 +27,33 @@
 
       <nav class="flex align-middle justify-between p-5 border-2 bg-white">
         <h1 class="text-xl font-bold"><i class="fa-solid fa-coins text-yellow-500"></i> Olyzano Finance.ID</h1>
-        <div class="navbarLinks">
-          <ul class="flex text-base">
-            <li class="ml-4">
-              <a href="#"><i class="fa-solid fa-house-chimney"></i> Home Page</a>
-            </li>
-            <li class="ml-4" onmouseenter="changeArrowRotation()" onmouseleave="changeArrowDefault()">
-              <a href="#"><i class="fa-solid fa-circle-arrow-up rotate-90 ease-in duration-300" id="arrowIcon"></i> About Us</a>
-            </li>
-            <li class="ml-4">
-              <a href="#"> <i class="fa-solid fa-briefcase"></i> Our Service</a>
-            </li>
-            <li class="ml-4">
-              <a href="#"><i class="fa-solid fa-phone"></i> Our Contact</a>
-            </li>
-          </ul>
+        <div class="navbarLinks flex">
+          <div class="box1">
+            <ul class="flex text-base">
+              <li class="ml-4">
+                <a href="#"><i class="fa-solid fa-house-chimney"></i> Home Page</a>
+              </li>
+              <li class="ml-4" onmouseenter="changeArrowRotation()" onmouseleave="changeArrowDefault()">
+                <a href="#"><i class="fa-solid fa-circle-arrow-up rotate-90 ease-in duration-300" id="arrowIcon"></i> About Us</a>
+              </li>
+              <li class="ml-4">
+                <a href="#"> <i class="fa-solid fa-briefcase"></i> Our Service</a>
+              </li>
+              <li class="ml-4">
+                <a href="#"><i class="fa-solid fa-phone"></i> Our Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="w-20 h-8 rounded-md bg-[#070048] text-white ml-3 relative flex-1 hover:scale-110 ease-in duration-300">Sign Up</button>
         </div>
       </nav>
-      <div class="container w-44 h-1/3 bg-[#0a0a43] absolute top-12 right-44 overflow-hidden z-10 rounded-md hidden" id="aboutNav" onmouseleave="destroyAboutNav()">
+      <div class="container w-44 h-1/3 bg-[#0a0a43] absolute top-12 right-64 overflow-hidden z-10 rounded-md hidden" id="aboutNav" onmouseleave="destroyAboutNav()">
         <ul>
           <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">Our Profile</a></li>
           <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">Our Goals</a></li>
           <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">Our Team</a></li>
           <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">Our certificate</a></li>
           <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">Event & News</a></li>
-          <li class="ml-3 mt-4"><a href="#" class="font-medium text-blue-700 hover:text-yellow-300">go somewhere</a></li>
         </ul>
       </div>
     </header>
