@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+.cta-btn:hover {
+  background-color: #0a0a43;
+  color: #fff;
+}
+
+.circle {
+  transition: 1s;
+}
+
+.circle:hover {
+  background: rgb(76, 3, 112);
+}
+
+nav ul li a {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
