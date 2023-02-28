@@ -14,3 +14,7 @@ function destroyAboutNav() {
   arrowIcon.style.transform = "rotate(90deg)";
   aboutNav.style.display = "none";
 }
+
+function goToHomeSection() {
+  location.href = "#home";
+}
