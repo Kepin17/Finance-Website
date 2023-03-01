@@ -41,5 +41,38 @@ nav ul li a {
 }
 
 .testimoni-review-box {
-  margin: auto 10px;
+  width: 100px;
+  height: 100px;
+  margin: auto 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.testimoni-review-box:hover {
+  transform: scale(1.2);
+}
+
+.active {
+  transform: scale(1.2);
+}
+
+.reviewTextbox {
+  width: 350px;
+  height: 200px;
+}
+
+.wrapper-box {
+  height: 20rem;
+  margin: auto 15px;
+}
+
+input {
+  width: 20rem;
+}
+
+input:focus {
+  outline: none;
+  padding-left: 10px;
 }
